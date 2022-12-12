@@ -1,0 +1,93 @@
+body{
+    background-image:url('fond.png');
+    background-size: 1000px,1000px;
+     display : flex;
+     justify-content: end;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}   
+.joueur{
+    flex-direction: column;
+    justify-content: center;
+}
+#pvjoueur1{
+    display: flex;
+    color: rgb(254, 28, 62);
+    justify-content: center;
+}
+#pvjoueur2{
+    display: flex;
+    color: rgb(254, 28, 62);
+    justify-content: center;
+
+}
+#pvjoueur3{
+    display: flex;
+    color:rgb(254, 28, 62);
+    justify-content: center;
+}
+#pvjoueur4{
+    display: flex;
+    color: rgb(254, 28, 62);
+    justify-content: center;
+}
+#manajoueur1{
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+#manajoueur2{
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+#manajoueur3{
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+#manajoueur4{
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+#pvmechant{
+    display: flex;
+    color: darkred;
+    justify-content: left;
+}
+#pvmechant2{
+    display: flex;
+    color: darkred;
+    justify-content: left;
+}
+#pvmechant3{
+    display: flex;
+    color: darkred;
+    justify-content: left;
+}
+.texttouche{ 
+    display: flex;
+    flex-direction: column;
+    
+}
+#textdefence{
+    color: rgb(146, 4, 4);
+}
+#textattaque{
+    color: rgb(255, 0, 0);
+}
+#textspecial{
+    color: rgb(90, 1, 1);
+}
+
+
+#ennemi { 
+    display : flex;
+    justify-content: start;
+  }
+
+
+  
